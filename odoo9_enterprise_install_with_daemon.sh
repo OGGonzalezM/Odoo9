@@ -28,6 +28,8 @@ OE_PORT="8069"
 #IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 9.0
 OE_VERSION="9.0"
 #set the superadmin password
+# Set this to True if you want to install Odoo 9 Enterprise!
+IS_ENTERPRISE="True"
 OE_SUPERADMIN="admin"
 OE_CONFIG="${OE_USER}-server"
 
